@@ -188,7 +188,7 @@ Start From 786
   <!-- Button -->
   <div style="margin-top: 12px; text-align: right">
     <a
-      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/00-786.html"
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/03%20Image-Hover-effect.html"
       style="
         background-color: #3498db;
         color: white;
@@ -216,3 +216,50 @@ Start From 786
 
 
 
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>04</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747749984/Document-GoogleChrome2025-05-2018-59-40-ezgif.com-crop_vf4ep6.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 15px">
+
+    Button Box Shadow Effect
+
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/04%20box-shadow.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+
+<hr>
