@@ -3,36 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Image Filters</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: #f7f7f7;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 20px;
+        width: 90%;
+        max-width: 800px;
+      }
+
+      .img-wrapper {
+        text-align: center;
+      }
+
+      .img {
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        width: 130px;
+        height: 100px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 8px;
+      }
+
+      .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* Filters */
+      .filter-sepia img {
+        filter: sepia(100%);
+      }
+
+      .filter-blur img {
+        filter: blur(2px);
+      }
+
+      .filter-grayscale img {
+        filter: grayscale(100%);
+      }
+
+      .filter-brightness img {
+        filter: brightness(1.4);
+      }
+
+      .filter-contrast img {
+        filter: contrast(180%);
+      }
+
+      .filter-invert img {
+        filter: invert(100%);
+      }
+
+      .caption {
+        font-size: 14px;
+        color: #333;
+      }
+    </style>
   </head>
-  <style>
-    body {
-      overflow: hidden;
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    img {
-      height: 200px;
-      min-height: 400px;
-      filter: sepia(100%);
-    }
-    
-    .container {
-      position: relative;
-    }
-
-   
-
-
-  </style>
   <body>
     <div class="container">
+      <div class="img-wrapper filter-sepia">
+        <div class="img">
+          <img src="./images/shoes 2.png" alt="sepia" />
+        </div>
+        <div class="caption">sepia(100%)</div>
+      </div>
 
-            <img class="filter_blur" src="./images/shoes 2.png" alt="" />
+      <div class="img-wrapper filter-blur">
+        <div class="img">
+          <img src="./images/shoes 2.png" alt="blur" />
+        </div>
+        <div class="caption">blur(2px)</div>
+      </div>
+
+      <div class="img-wrapper filter-grayscale">
+        <div class="img">
+          <img src="./images/shoes 2.png" alt="grayscale" />
+        </div>
+        <div class="caption">grayscale(100%)</div>
+      </div>
+
+      <div class="img-wrapper filter-brightness">
+        <div class="img">
+          <img src="./images/shoes 2.png" alt="brightness" />
+        </div>
+        <div class="caption">brightness(1.4)</div>
+      </div>
+
+      <div class="img-wrapper filter-contrast">
+        <div class="img">
+          <img src="./images/shoes 2.png" alt="contrast" />
+        </div>
+        <div class="caption">contrast(180%)</div>
+      </div>
+
+      <div class="img-wrapper filter-invert">
+        <div class="img">
+          <img src="./images/shoes 2.png" alt="invert" />
+        </div>
+        <div class="caption">invert(100%)</div>
+      </div>
     </div>
   </body>
 </html>
