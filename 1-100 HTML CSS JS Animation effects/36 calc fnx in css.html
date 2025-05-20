@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* boilerplate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+    }
+
+    body {
+      min-height: 100vh;
+      height: auto;
+      width: 100%;
+    }
+    .box1 {
+      height: 100px;
+      width: 100%;
+      background-color: red;
+    }
+    .box2 {
+      height: calc(100vh - 100px);
+      width: 100%;
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="box1"></div>
+    <div class="box2">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint iste
+      laborum pariatur inventore veritatis iure placeat, numquam dolores earum,
+      aliquid, aperiam impedit excepturi! Accusamus facere incidunt deleniti
+      consequuntur iusto aliquam.
+    </div>
+  </body>
+</html>

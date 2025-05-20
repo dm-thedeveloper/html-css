@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      background-color: greenyellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    body::before {
+      content: "";
+      height: 200px;
+      width: 200px;
+      /* background: #000; */
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-image: url("./left.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 1;
+    }
+
+    body::after {
+      content: "";
+      height: 200px;
+      width: 200px;
+      /* background: #000; */
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-image: url("./top.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 1;
+      transform: rotate(180deg);
+    }
+
+    h1::before {
+      content: "Before ";
+    }
+  </style>
+  <body>
+    <h1>Befor And After</h1>
+  </body>
+</html>

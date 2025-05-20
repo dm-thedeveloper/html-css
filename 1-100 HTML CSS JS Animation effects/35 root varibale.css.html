@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* boilerplate */
+    :root {
+      --bg-highlight: gray;
+      --text-hightlight: white;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+    }
+
+    body {
+      min-height: 100vh;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      color: white;
+      font-size: 50px;
+      font-weight: normal;
+    }
+    h1 span:nth-child(1) {
+      font-weight: bolder;
+    }
+    h1 span:nth-child(2) {
+      text-decoration: 1px solid underline white;
+      text-underline-offset: 3px;
+    }
+    h1 span:nth-child(3) {
+        color: var(--text-hightlight);
+        background-color: var(--bg-highlight);
+    }
+  </style>
+  <body>
+    <h1>
+      <span>Ya </span>
+      <span>allah</span>
+      <span>madad</span>
+    </h1>
+  </body>
+</html>

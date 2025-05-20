@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div {
+      height: 400px;
+      width: 400px;
+      border-radius: 100%;
+      padding: 5px;
+      background: linear-gradient(
+        to left,
+        red,
+        blue,
+        yellow,
+        green,
+        black,
+        white
+      );
+      animation: anim 3s linear infinite;
+    }
+    @keyframes anim {
+      0% {
+        background: linear-gradient(
+          to left,
+          yellow,
+          red,
+          green,
+          black,
+          blue,
+          white
+        );
+      }
+      
+       50%{
+           background: linear-gradient(
+        to top,
+        red 10%,
+        blue 40%,
+        yellow 60%,
+        green 70%,
+        black 80%,
+        white 10%
+      );
+
+      }
+      100%{
+           background: linear-gradient(
+        to top,
+        red,
+        blue,
+        yellow,
+        green,
+        black,
+        white
+      );
+
+      }
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <body>
+    <div class="">
+      <img
+        src="https://images.unsplash.com/photo-1635521190724-d8d8abff50f4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

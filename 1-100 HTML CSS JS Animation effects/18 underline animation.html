@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* boilerplate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+    }
+
+    body {
+      min-height: 100vh;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      color: white;
+      font-size: 90px;
+      position: relative;
+      cursor: pointer;
+
+    }
+    h1::after {
+      content: "";
+      height: 5px;
+      width: 0%;
+      background: linear-gradient(to left, red, blue, yellow, orange);
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      transition: width .2s linear;
+    }
+    h1:hover::after{
+        width: 100%;
+    }
+  </style>
+
+  <body>
+    <h1>Developer</h1>
+  </body>
+</html>

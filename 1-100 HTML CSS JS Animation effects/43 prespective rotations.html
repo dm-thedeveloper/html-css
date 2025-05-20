@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* boilerplate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+    }
+
+    body {
+      min-height: 100vh;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div {
+      min-height: 300px;
+      height: auto;
+      width: 300px;
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      perspective: 500px;
+      
+
+    }
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      transform: rotateY(40deg);
+      /* transform: rotateZ(30deg); */
+      scale: 0.77;
+      box-shadow: 0px 0px 10px 5px black;
+      transition: all 0.2s linear;
+    }
+    div:hover img {
+      transform: rotateY(0deg);
+      scale: 1;
+      box-shadow: none;
+    }
+
+    h3 {
+      color: gray;
+    }
+    p {
+      font-size: 15px;
+      color: rgba(128, 128, 128, 0.703);
+    }
+  </style>
+  <body>
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1724396482918-14d2160fd907?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>
+        Ladipisicing elit. Rem obcaecati blanditiis voluptas, fugit deleniti
+        optio. Molestias deserunt veniam ratione minus, cum saepe, rem doloribus
+        nemo officiis expedita accusamus sit dolorum!
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* boilerplate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+    }
+
+    body {
+      min-height: 100vh;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      perspective: 200px;
+    }
+    img {
+      width: 400px;
+      object-fit: contain;
+      transform: rotateY(20deg);
+      transition: all .3s;
+    }
+    img:hover{
+        transform: rotateY(0deg);
+    }
+  </style>
+  <body>
+    <img
+      src="https://images.unsplash.com/photo-1724396482918-14d2160fd907?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt=""
+    />
+  </body>
+</html> -->

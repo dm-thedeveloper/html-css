@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* boilerplate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+      color: white;
+    }
+
+    body {
+      min-height: 100vh;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    section {
+      height: 200px;
+      width: 400px;
+      background-color: rgba(0, 0, 0, 0.906);
+      position: absolute;
+    }
+    .confin_js {
+      height: 20px;
+      max-width: 130px;
+      border: 1px solid rgba(255, 255, 255, 0.377);
+      border-radius: 2px;
+      background: #000;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      gap: 10px;
+    }
+    .confin_js img {
+      height: 100%;
+    }
+    .confin_js code {
+      color: white;
+    }
+    table {
+      width: 100%;
+    }
+    td {
+      /* border: 1px solid white; */
+      width: 100%;
+      color: rgba(255, 255, 255, 0.454);
+      padding: 1px 4px;
+    }
+    .confirm_line {
+      width: 100%;
+    }
+    .confirm_line span:first-child {
+      width: 100%;
+      /* border: 1px solid ; */
+      /* display: i; */
+      white-space: nowrap;
+      direction: ltr;
+    }
+    .confirm_line span:last-child {
+      width: 100%;
+      /* border: 1px solid ; */
+      margin-left: 5px;
+      white-space: nowrap;
+      color: white;
+    }
+    .yellow {
+      color: yellow;
+    }
+    .red {
+      color: red;
+    }
+  </style>
+  <body>
+    <section>
+      <!-- confirm.js file name -->
+      <div class="confin_js">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+          alt=""
+        />
+        <code>49_confirm.js</code>
+      </div>
+
+      <table>
+        <tr>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td class="confirm_line">
+            <span>3</span>
+            <span>
+              <span class="yellow">confirm(</span
+              >
+              <span class="red">"Hello World"</span>)</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+  <script src="./49_cofirm.js"></script>
+</html>

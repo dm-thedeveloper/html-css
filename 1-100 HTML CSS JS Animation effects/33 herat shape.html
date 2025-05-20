@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* boilerplate */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html, body {
+      font-family: sans-serif;
+      overflow-x: hidden;
+      background-color: limegreen;
+    }
+    
+    body {
+    min-height: 100vh;
+    height:auto ;
+    width : 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #dil{
+        height: 200px;
+        width: 200px;
+        background: red;
+        position: relative;
+        rotate: 45deg;
+        
+    }
+
+
+    #dil::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background:red;
+        border-radius: 50%;
+        transform: translate(-50% , 0%);
+    }
+        #dil::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background:red;
+        border-radius: 50%;
+        transform: translate(0% , -50%);
+    }
+
+
+
+    
+</style>
+<body>
+    <div id="dil"></div>
+    
+</body>
+</html>

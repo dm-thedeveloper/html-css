@@ -1,0 +1,139 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>background-clip Examples</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      color: #333;
+    }
+
+    .box {
+      width: 300px;
+      height: 100px;
+      margin-bottom: 1.5rem;
+      border: 10px solid #333;
+      padding: 20px;
+      background-color: lightblue;
+      color: #000;
+      box-sizing: border-box;
+    }
+
+    .border-box {
+      background-clip: border-box;
+    }
+
+    .padding-box {
+      background-clip: padding-box;
+    }
+
+    .content-box {
+      background-clip: content-box;
+    }
+
+    .text-clip {
+      font-size: 3rem;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff0080, #7928ca);
+      -webkit-background-clip: text;
+     color: transparent;
+      background-clip: text;
+    }
+
+    .label {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .demo {
+      margin-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS <code>background-clip</code> Property Examples</h1>
+
+  <div class="demo">
+    <div class="label">1. <code>background-clip: border-box</code> (Default)</div>
+    <div class="box border-box">Background fills border area</div>
+  </div>
+
+  <div class="demo">
+    <div class="label">2. <code>background-clip: padding-box</code></div>
+    <div class="box padding-box">Background stops at inner border</div>
+  </div>
+
+  <div class="demo">
+    <div class="label">3. <code>background-clip: content-box</code></div>
+    <div class="box content-box">Background only inside content</div>
+  </div>
+
+  <div class="demo">
+    <div class="label">4. <code>background-clip: text</code> (with gradient)</div>
+    <div class="text-clip">Clipped Text</div>
+  </div>
+
+</body>
+</html>
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 70px;
+      font-weight: 900;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJipmSszu-hSLVbvc8JaMwfrECDB0kvlUh4Q&s");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: anim 0.3s  infinite;
+    }
+    @keyframes anim {
+      0% {
+        background-size: 100% 30%;
+      }
+      25% {
+        background-size: 200% 150% ;
+      }
+      75% {
+        /* background-size: 150% 500%; */
+      }
+      100% {
+        background-size: 180% 300%;
+      }
+    }
+  </style>
+  <body>
+    <h1>Ya Ali</h1>
+  </body>
+</html>
