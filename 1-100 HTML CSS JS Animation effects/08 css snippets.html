@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./08 css snippets.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How to Use CSS Snippets in VS Code</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.7;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      background: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    ol {
+      background: white;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    code {
+      background: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    pre {
+      background: #222;
+      color: #eee;
+      padding: 16px;
+      border-radius: 8px;
+      overflow: auto;
+    }
+  </style>
 </head>
-
 <body>
 
-    <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis error expedita culpa dolorum quasi debitis corrupti laboriosam. Quam, dolores. Eveniet illum id minus quae sit beatae nulla, tempora molestiae est!
-    </div>
+  <h1>How to Add CSS Snippets in VS Code</h1>
+
+  <ol>
+    <li>Open VS Code.</li>
+    <li><code>clikc on the left Side bar bottom "⚙️"
+        <ul>
+            <li> <code>then choose the Snippets</code> </li>
+            <li> <code>search css.josn</code> </li>
+        </ul>
+ 
+  <h2>📦 Example CSS Snippet</h2>
+  <pre>
+"Center Flex Box": {
+  "prefix": "center",
+  "body": [
+    "display: flex;",
+    "justify-content: center;",
+    "align-items: center;"
+  ],
+  "description": "Center an element using Flexbox"
+}
+  </pre>
+
+  <ol start="5">
+    <li>Save the file.</li>
+    <li>Now, type <code>center</code> in any CSS file and hit <code>Tab</code> to expand it.</li>
+  </ol>
+
+  <p>✅ You can reuse this method to save all your favorite snippets and boost your workflow!</p>
+
 </body>
 </html>

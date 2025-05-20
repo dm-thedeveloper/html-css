@@ -238,7 +238,7 @@ Start From 786
   />
 
   <!-- Caption -->
-  <h4 style="margin-top: 10px; color: #555; font-size: 15px">
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
 
     Button Box Shadow Effect
 
@@ -263,3 +263,190 @@ Start From 786
 
 
 <hr>
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>05</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747750275/Screenshot_134_esuosw.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+
+Image in Text
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/05%20image%20in%20text.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>06</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747750835/Screenshot_136_xy8kww.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+linear-gradient background
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/06%20linear-gradient.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>07</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747751025/Screenshot_137_gtydwx.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+gradient border
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/07%20gradient-border.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
+
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>08</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747751635/Screenshot_138_it9tyy.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    CSS Snipper
+    like : 
+  
+  </h4>
+    <ul>
+      <li>type <b>!</b> for CSS Basic <b>Boiler plate code</b></li>
+      <li>type <b>center</b> for CSS  <b>Flex Center</b> on the cotainer</li>
+    </ul>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/08%20css%20snippets.css"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
