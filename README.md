@@ -30,7 +30,7 @@
 
 
 
-
+<hr>
 
 
 <div style="position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 16px; border-radius: 10px; width: fit-content; font-family: sans-serif; border: 1px solid #eee; margin-top: 20px;">
@@ -52,7 +52,7 @@ Start From 786
     </a>
   </div>
 </div>
-
+<hr>
 
 <div
   style="
@@ -97,7 +97,7 @@ Start From 786
   </div>
 </div>
 
-
+<hr>
 
 
 <div
@@ -154,6 +154,9 @@ Start From 786
   </div>
 </div>
 
+<hr>
+
+
 <div
   style="
     position: relative;
@@ -170,15 +173,16 @@ Start From 786
 
   <!-- Video -->
   <img
-    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747748505/Document-GoogleChrome2025-05-2018-25-18-ezgif.com-video-to-gif-converter_bdm0lp.gif
-    "
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747748885/Screenshot_132_nyznjs.png"
     alt="Preview"
     style="max-width: 100%; border-radius: 8px; display: block"
   />
   
   <!-- Caption -->
   <h4 style="margin-top: 30px; color: #555; font-size: 30px">
-    Image Hover Effect
+   <a href="https://res.cloudinary.com/dwvr054ck/image/upload/v1747748505/Document-GoogleChrome2025-05-2018-25-18-ezgif.com-video-to-gif-converter_bdm0lp.gif" >
+    Image Hover Effect 
+   ▶️</a>
   </h4>
 
   <!-- Button -->
@@ -200,7 +204,7 @@ Start From 786
 
 
 
-
+<hr>
 
 
 
