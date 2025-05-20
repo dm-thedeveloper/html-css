@@ -169,20 +169,13 @@ Start From 786
   <h3>03</h3>
 
   <!-- Video -->
-  <video
-    autoplay
-    muted
-    loop
-    playsinline
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747748505/Document-GoogleChrome2025-05-2018-25-18-ezgif.com-video-to-gif-converter_bdm0lp.gif
+    "
+    alt="Preview"
     style="max-width: 100%; border-radius: 8px; display: block"
-  >
-    <source
-      src="https://res.cloudinary.com/dwvr054ck/video/upload/v1747747566/Document_-_Google_Chrome_2025-05-20_18-25-18_d2h246.mp4"
-      type="video/mp4"
-    />
-    Your browser does not support the video tag.
-  </video>
-
+  />
+  
   <!-- Caption -->
   <h4 style="margin-top: 30px; color: #555; font-size: 30px">
     Image Hover Effect
