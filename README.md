@@ -7,21 +7,21 @@
         <a href="https://github.com/dm-thedeveloper/html-css/tree/main/Basic%20HTML%20Tags" target="_blank">
             <strong>Basic HTML Tags</strong>
         </a>
-        <br>
+        <hr>
         <span style="color:gray;font-size:90%;">Fundamental HTML elements and usage examples.</span>
     </li>
     <li>
         <a href="https://github.com/dm-thedeveloper/html-css/tree/main/1-100%20HTML%20CSS%20JS%20Animation%20effects" target="_blank">
             <strong>1-100 HTML CSS JS Animation Effects</strong>
         </a>
-        <br>
+        <hr>
         <span style="color:gray;font-size:90%;">A collection of creative animation effects using HTML, CSS, and JS.</span>
     </li>
     <li>
         <a href="https://github.com/dm-thedeveloper/html-css/tree/main/After%20And%20Before" target="_blank">
             <strong>::After &amp; ::Before CSS Pseudo Elements</strong>
         </a>
-        <br>
+        <hr>
         <span style="color:gray;font-size:90%;">Best box corner images and pseudo-element examples.</span>
     </li>
 </ul>
@@ -352,7 +352,8 @@ linear-gradient background
   </div>
 </div>
 
-<br>
+<hr>
+
 <div
   style="
     position: relative;
@@ -396,7 +397,7 @@ gradient border
   </div>
 </div>
 
-<br>
+<hr>
 
 
 
@@ -449,7 +450,7 @@ gradient border
   </div>
 </div>
 
-<br>
+<hr>
 
 
 
@@ -496,7 +497,7 @@ gradient border
   </div>
 </div>
 
-<br>
+<hr>
 
 
 <div
@@ -542,7 +543,7 @@ gradient border
   </div>
 </div>
 
-<br>
+<hr>
 
 
 <div
@@ -574,7 +575,7 @@ gradient border
   <!-- Button -->
   <div style="margin-top: 12px; text-align: right">
     <a
-      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/11%20font%20finder%20extension.md"
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/11%20font%20finder%20extension.html"
       style="
         background-color: #3498db;
         color: white;
@@ -588,7 +589,7 @@ gradient border
   </div>
 </div>
 
-<br>
+<hr>
 
 <div
   style="
@@ -621,7 +622,7 @@ gradient border
   <!-- Button -->
   <div style="margin-top: 12px; text-align: right">
     <a
-      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/12%20colorzilla%20extention.md"
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/12%20colorzilla%20extention.html"
       style="
         background-color: #3498db;
         color: white;
@@ -635,4 +636,284 @@ gradient border
   </div>
 </div>
 
-<br>
+<hr>
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>13</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747806834/Document-GoogleChrome2025-05-2110-49-35-ezgif.com-video-to-gif-converter_gcxig3.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    ::Selection CSS Element 
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/13%20selection%20pseudo%20elements.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>14</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747807589/Screenshot_2025-05-21_110426_vuk2cv.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    let a = 10; VS let b = "10";
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/14_string10_%2B_10.js"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>15</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747807705/Screenshot_2025-05-21_110751_sjuxtw.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    == VS ===
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/15_%3D%3D_vs%3D%3D%3D.js"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>16</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747808448/Document-GoogleChrome2025-05-2111-17-38-ezgif.com-video-to-gif-converter_iamuy0.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Color full Scroll Bar
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/16%20color%20full%20scrollbar.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>17</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747808856/Document-GoogleChrome2025-05-2111-25-24-ezgif.com-video-to-gif-converter_hc49g7.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Animated Laoder
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/17%20animated%20loader.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>18</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747809499/Document-GoogleChrome2025-05-2111-36-36-ezgif.com-video-to-gif-converter_mpvwcq.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Under Line Animation
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/18%20underline%20animation.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
