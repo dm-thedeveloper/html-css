@@ -450,3 +450,189 @@ gradient border
 </div>
 
 <br>
+
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>09</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747806655/Document-GoogleChrome2025-05-2110-47-15-ezgif.com-video-to-gif-converter_abkzxh.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    shadow in Image
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/09%20shadow%20in%20img.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>10</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747754484/Screenshot_139_ssss95.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    Border On Text (Stroke)
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/10%20border%20on%20TEXT.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>11</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747805680/Screenshot_142_inplyu.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    Font Fider Extension
+  </h4>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/11%20font%20finder%20extension.md"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>12</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747806242/ezgif.com-video-to-gif-converter_zuxq6h.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">
+    color Zilla Extension
+  </h4>
+  <b>Detect Every color of web page , detect images color on the webpage ,every thing . etc </b>
+
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/12%20colorzilla%20extention.md"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<br>
