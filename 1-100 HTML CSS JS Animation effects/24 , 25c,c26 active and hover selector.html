@@ -1,53 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    /* boilerplate */
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Button State Display</title>
+  <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    
+
     html, body {
       font-family: sans-serif;
       overflow-x: hidden;
       background-color: limegreen;
+      height: 100%;
     }
-    
-    body {
 
-    min-height: 100vh;
-    height:auto ;
-    width : 100% ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    body {
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    button{
-        background: white;
-        border: none;
-        font-size: 50px;
-        padding: 12px 15px;
-        border-radius: 10px;
-        color: limegreen;
-        transition: all .2s;
-        cursor: pointer;
+
+    button {
+      background: white;
+      border: none;
+      font-size: 40px;
+      padding: 20px 30px;
+      border-radius: 10px;
+      color: limegreen;
+      cursor: pointer;
+      position: relative;
     }
-    button:hover{
-        opacity: .8;
+
+    /* Common styling for state labels */
+    button::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      margin-top: 8px;
+      color: white;
+      background-color: #333;
+      padding: 4px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      opacity: 0;
+      transition: all 0.2s ease-in-out;
+      pointer-events: none;
     }
-    button:active{
-        opacity: 1;
-        scale: .95;
+
+    button:hover::after {
+      content: "Hover";
+      opacity: 1;
     }
-    
-</style>
+
+    button:active::after {
+      content: "Active";
+      opacity: 1;
+    }
+
+    button:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
 <body>
-    <button>Click me</button>
+
+  <button>Click me</button>
+
 </body>
 </html>

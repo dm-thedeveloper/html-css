@@ -1,48 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    /* boilerplate */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    html, body {
-      font-family: sans-serif;
-      overflow-x: hidden;
-      background-color: limegreen;
-    }
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>nth-child() Selector Examples</title>
+  <style>
     body {
-    min-height: 100vh;
-    height:auto ;
-    width : 100% ;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      padding: 40px;
+      color: #333;
     }
 
-    h1:nth-child(5){
-        color: red;
-
+    h2 {
+      margin-top: 40px;
+      color: #2c3e50;
     }
-    
-</style>
+
+    /* 1. Styling odd/even list items */
+    ul li:nth-child(odd) {
+      background-color: #dff9fb;
+    }
+
+    ul li:nth-child(even) {
+      background-color: #c7ecee;
+    }
+
+    ul li {
+      padding: 10px 16px;
+      margin: 5px 0;
+      list-style: none;
+      border-radius: 4px;
+    }
+
+    /* 2. Highlight every 3rd item */
+    .boxes div:nth-child(3n) {
+      background-color: #f9ca24;
+      color: #000;
+    }
+
+    .boxes div {
+      background-color: #74b9ff;
+      color: white;
+      padding: 20px;
+      margin: 10px;
+      display: inline-block;
+      border-radius: 8px;
+      width: 100px;
+      text-align: center;
+    }
+
+    /* 3. Table column highlighting */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    td:nth-child(odd) {
+      background-color: #fab1a0;
+    }
+
+    td:nth-child(even) {
+      background-color: #81ecec;
+    }
+
+    /* 4. Section styling */
+    section:nth-child(odd) {
+      background-color: #55efc4;
+    }
+
+    section:nth-child(even) {
+      background-color: #a29bfe;
+    }
+
+    section {
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello </h1>
-<h1>Aziz  </h1>
-<h1>ullah </h1>
-<h1>abbasi </h1>
-<h1>ibanian </h1>
-    
+
+  <h1>:nth-child() CSS Selector Examples</h1>
+
+  <h2>1. List Styling (Odd / Even)</h2>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+
+  <h2>2. Every 3rd Box Highlighted</h2>
+  <div class="boxes">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+
+  <h2>3. Table Column Styling</h2>
+  <table>
+    <tr>
+      <td>Name</td>
+      <td>Age</td>
+      <td>Country</td>
+      <td>Score</td>
+    </tr>
+    <tr>
+      <td>Aziz</td>
+      <td>22</td>
+      <td>Pakistan</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>Ahmed</td>
+      <td>24</td>
+      <td>India</td>
+      <td>91</td>
+    </tr>
+  </table>
+
+  <h2>4. Section Styling by Order</h2>
+  <section>Section One (Odd)</section>
+  <section>Section Two (Even)</section>
+  <section>Section Three (Odd)</section>
+  <section>Section Four (Even)</section>
+
 </body>
 </html>

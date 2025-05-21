@@ -24,28 +24,102 @@
       min-height: 100vh;
       height: auto;
       width: 100%;
-    }
-    .box1 {
-      height: 100px;
-      width: 100%;
-      background-color: red;
-    }
-    .box2 {
-      height: calc(100vh - 100px);
-      width: 100%;
-      background-color: gray;
       display: flex;
       justify-content: center;
       align-items: center;
     }
+
+    .container{
+  height: 400px;
+  width: 400px;
+  background: white;
+  position: relative;
+  padding: 2px;
+}
+
+.container 
+.show-w{
+  width: 110px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 40px;
+  left: -15%;
+  transform: translateX(-50%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  /* padding-top: 5px; */
+  padding: 5px 5px;
+  /* rotate: 90deg; */
+  color: black;
+}
+
+.h-100px{
+  height: 100px;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hund{
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline;
+  color: orange;
+}
+.h-90per{
+    height: calc(100% - 100px);
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.h-90per code{
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+.h-90per code span{
+  font-weight: 900;
+  font-size: 1.6rem;
+  color: orange;
+}
+.h-90per p{
+  color: white;
+  margin-top: 20px;
+  background-color: orange;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+    
+
   </style>
   <body>
-    <div class="box1"></div>
-    <div class="box2">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint iste
-      laborum pariatur inventore veritatis iure placeat, numquam dolores earum,
-      aliquid, aperiam impedit excepturi! Accusamus facere incidunt deleniti
-      consequuntur iusto aliquam.
-    </div>
+<div class="container">
+
+<div class="h-100px">height: <span class="hund">100px</span> </div>
+
+
+<div class="show-w">
+height:400px
+</div>
+
+<div class="h-90per">
+  <code>
+    height:  <span>calc(</span>100% - <div class="hund">100px</div><span>)</span>;
+  </code>
+  <p>100% of Parent (400px) - 100px</p>
+</div>
+
+</div>
+
+ 
   </body>
 </html>

@@ -917,3 +917,570 @@ gradient border
 </div>
 
 <hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>19</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747809981/Screenshot_143_bh9orr.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    How to Remove Any Image background
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/19%20remove%20bg%20of%20image.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>20</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747810222/Screenshot_144_sdmie1.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+  < mark/> Tag
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/19%20remove%20bg%20of%20image.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>21,22</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747810373/Screenshot_146_funuoi.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    ::before And ::after Pseudo elements
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/21%20%2C%2022%20before%20after%20pseudo%20elements.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>23</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747810826/Screenshot_147_jytanf.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    nth-child() Selector in CSS
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/23%20nth%20child%20selector.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>24,25,26</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747811422/ButtonStateDisplay-GoogleChrome2025-05-2112-04-11-ezgif.com-video-to-gif-converter_rscvbc.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    :hover & :active selectors
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/24%20%2C%2025c%2Cc26%20active%20and%20hover%20selector.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>27</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747811564/Document-GoogleChrome2025-05-2112-08-45-ezgif.com-video-to-gif-converter_bxeng9.gif"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Simple Scroll Slider
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/27%20horizantal-x%20scrolling.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>28</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747812145/Screenshot_148_wztx0f.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Import Fonts locally 
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/28%20import%20font%20locally.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>32</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747812657/Screenshot_2025-05-21_122950_jxa4wj.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Genrate Random Number (.js)
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/32_generate_random_no.js"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>33</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747812803/Screenshot_149_zudnxu.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    Heart Shape Using ::before & ::after
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/33%20herat%20shape.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>34</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747813188/Screenshot_150_asmjjk.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    background blur effect
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/34%20bg%20blur%20effect.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>35</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747813349/Screenshot_152_tvye3n.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    :root Varibale in CSS
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/35%20root%20varibale.css.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
+
+
+<div
+  style="
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: sans-serif;
+    border: 1px solid #eee;
+    margin-top: 20px;
+  "
+>
+  <h3>36</h3>
+
+  <!-- Image -->
+  <img
+    src="https://res.cloudinary.com/dwvr054ck/image/upload/v1747814538/Screenshot_153_x23549.png"
+    alt="Preview"
+    style="max-width: 100%; border-radius: 8px; display: block"
+  />
+
+  <!-- Caption -->
+
+
+  <h4 style="margin-top: 10px; color: #555; font-size: 30px">  
+    calc fnx in CSS
+  </h4>
+  <!-- Button -->
+  <div style="margin-top: 12px; text-align: right">
+    <a
+      href="https://github.com/dm-thedeveloper/html-css/blob/main/1-100%20HTML%20CSS%20JS%20Animation%20effects/36%20calc%20fnx%20in%20css.html"
+      style="
+        background-color: #3498db;
+        color: white;
+        padding: 8px 14px;
+        text-decoration: none;
+        border-radius: 6px;
+      "
+    >
+    go to file
+    </a>
+  </div>
+</div>
+
+<hr>
